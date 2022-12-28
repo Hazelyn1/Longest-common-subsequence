@@ -1,7 +1,7 @@
 # Longest-common-subsequence
 This program was written in Python 3.8 in the IDE PyCharm, version 2021.2. This program can also be run on the command line given that the input file is in the same file as the program. 
 
-This program finds the longest common substring (LCS) between two DNA sequences using a dynamic programming approach. The input file of the program must be a text file that contains at least two DNA sequences to be compared. The file(s) should be formatted in the following way:
+This program finds the longest common substring (LCS) between two DNA sequences using a dynamic programming approach. The input file of the program must be a text file that contains at least two DNA sequences to be compared. Four sample input files are provided, and the file(s) should be formatted in the following way:
 
 S1 = ATGGATGGCTAG
 
