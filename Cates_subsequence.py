@@ -1,5 +1,5 @@
 #Hazelyn Cates
-#Started 12/28/22
+#12/28/22
 #This program finds the longest common subsequence between two DNA sequences
 
 import re
