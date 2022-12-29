@@ -91,8 +91,7 @@ def find_LC_suffix(LC_suffix, s1, s2, s1_len, s2_len, string_count1, string_coun
 
     end_substring = time.perf_counter()
     substring_time = end_substring - start_time
-
-    #need to replace the write statements with print statements
+    
     print("\nString %d: %s\n" % (string_count1+1, s1))
     print("String %d: %s\n" % (string_count2+1, s2))
     print("Length of string %d: %d\n" % (string_count1+1, s1_len))
@@ -132,10 +131,6 @@ for line in open_file:
                 exit(1) #exit program
             else: #if sequence is valid:
                 sequence.append(seq) #append each extraced sequence to the sequence array
-
-#NOT DOING FILE INPUT IN THIS PROGRAM
-#file to write results to, open in append mode
-#results_file = open("output.txt", "a")
 
 #to call the functoin to make sure all sequences aree being compared to each other by using a nested for loop:
 for i in range(0, num):
